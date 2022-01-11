@@ -1,5 +1,5 @@
 import { Listing, Form } from "./pages/index";
-import { Navbar } from "./components/navbar/Navbar";
+import { Navbar } from "./components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
     return(
