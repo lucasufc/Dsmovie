@@ -1,5 +1,5 @@
-import { MovieCard } from "components/MovieCard/MovieCard"
-import { Pagination } from "components/Pagination"
+import { MovieCard } from "../../components/MovieCard/MovieCard"
+import { Pagination } from "../../components/Pagination"
 
 export const Listing = () => {
     return(

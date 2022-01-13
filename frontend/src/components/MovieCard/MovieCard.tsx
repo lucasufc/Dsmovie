@@ -1,6 +1,5 @@
 import { MovieScore } from "../MovieScore"
 import { Link } from 'react-router-dom'
-import './MovieCard.css'
 
 export const MovieCard = () => {
     const movie = {
