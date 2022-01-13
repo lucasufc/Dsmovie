@@ -1,4 +1,4 @@
-import { MovieScore } from "../MovieScore/MovieScore"
+import { MovieScore } from "../MovieScore"
 import { Link } from 'react-router-dom'
 import './MovieCard.css'
 

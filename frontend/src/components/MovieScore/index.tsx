@@ -1,4 +1,4 @@
-import { MovieStars } from "../MovieStars/MovieStars"
+import { MovieStars } from "../MovieStars"
 import './MovieScore.css'
 export const MovieScore = () => {
     const score = 3.5
