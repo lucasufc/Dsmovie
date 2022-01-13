@@ -2,14 +2,6 @@ import { Link } from 'react-router-dom'
 import './Form.css'
 
 export const Form = () => {
-    const movie = {
-        id: 1,
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-        title: "The Witcher",
-        count: 2,
-        score: 4.5
-    };
-
     return(
     <div className="dsmovie-form-container">
         <img className="dsmovie-movie-card-image" src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg" alt="The Witcher" />
