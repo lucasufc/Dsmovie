@@ -1,5 +1,5 @@
 .dsmovie-form-container {
-    max-width: 480px;
+    max-width: 500px;
     margin: 40px auto;
     padding: 20px;
 }
@@ -13,13 +13,20 @@
 }
 
 .dsmovie-form-group label {
-    font-size: 12px;
+    font-size: 16px;
     color: #aaa;
 }
 
 .dsmovie-form-btn-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dsmovie-h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .dsmovie-movie-card-image {
@@ -47,11 +54,19 @@
 
 .dsmovie-btn {
     background-color: var(--color-primary);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     height: 40px;
     width: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
+
+.dsmovie-btn:hover {
+    background-color: rgba(263, 214, 196, 0.8); 
+}
+
+
